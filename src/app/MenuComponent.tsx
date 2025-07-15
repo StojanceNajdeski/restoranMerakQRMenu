@@ -59,8 +59,8 @@ const MenuComponent = () => {
           </button>
         </div>
         <div className="flex gap-3">
-          <button className="bg-red-500 basis-2/4  notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
-            <Link href="/apetisani">{t("apetisani")}</Link>
+          <button className="bg-red-500 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
+            <Link href="zestokiPijaloci">{t("zestokiPijaloci")}</Link>
           </button>
           <button className="bg-red-500 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/vina">{t("vina")}</Link>
@@ -70,8 +70,8 @@ const MenuComponent = () => {
           <button className="bg-red-500 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/rakii">{t("rakii")}</Link>
           </button>
-          <button className="bg-red-500 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
-            <Link href="furnarinki">{t("furnarinki")}</Link>
+          <button className="bg-red-500 basis-2/4  notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
+            <Link href="/apetisani">{t("apetisani")}</Link>
           </button>
         </div>
         <div className="flex gap-3">

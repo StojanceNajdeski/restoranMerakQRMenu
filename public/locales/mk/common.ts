@@ -7,7 +7,7 @@ const mk = {
   apetisani: "Апетисани",
   vina: "Вина",
   rakii: "Ракии",
-  furnarinki: "Фурнаринки",
+  zestokiPijaloci: "Жестоки\nПијалоци",
   meze: "Мезе",
   sirenje: "Сирење",
   salati: "Салати",
@@ -70,18 +70,15 @@ const mk = {
   pelinkovac: "Пелинковац 0,05",
   martini: "Мартини",
 
-  // Furnarinki
-  lukarinka: "ЛУКАРИНКА",
-  lukarinkaDesc: "лук, кашкавал, печурки, зденка, сос, сусам, зачини",
-  zdenkaKaskavalMaslinki: "ЗДЕНКА, КАШКАВАЛ, МАСЛИНКИ",
-  zdenkaKaskavalMaslinkiDesc:
-    "зденка, кашкавал, маслинки, печурки, павлака, сусам",
-  suvomesnata: "СУВОМЕСНАТА",
-  suvomesnataDesc: "сувомеснато, кашкавал, зденка, печурки, сос, сусам",
-  kombinirana: "КОМБИНИРАНА",
-  kombiniranaDesc:
-    "Фурнаринка со состојки по избор. Доколку сакате пршута, цената на фурнаринкатра ќе биде 350 ден.",
-
+  //Zestoki Pijaloci
+  konjak: "Коњак 0,05",
+  votka: "Вотка 0,05",
+  stok: "Шток 0,05",
+  dzin: "Џин 0,05",
+  civas: "Чивас 0,05",
+  dzekDaniels: "Џек Даниелс 0,05",
+  smirnof: "Смирноф 0,05",
+  uzo: "Узо 0,05",
   // Meze
   sampinjoni200: "ШАМПИЊОНИ (200гр)",
   sampinjoniKaskaval: "ШАМПИЊОНИ СО КАШКАВАЛ",
