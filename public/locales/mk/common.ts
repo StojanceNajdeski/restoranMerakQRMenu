@@ -1,12 +1,12 @@
 const mk = {
   mkd: "ден",
   // Menu component
-  bakardiMeni: "Бакарди - Мени",
-  specijaliteti: "Специјалитети",
-  novo: "Ново",
-  pojadok: "Појадок",
-  dodatoci: "Додатоци",
-  panceroti: "Панцероти",
+  restoranMerak: `Ресторан Мерак`,
+  topliPijaloci: "Топли\nПијалоци",
+  bezalkoholniPijaloci: "Безалкохолни\nПијалоци",
+  apetisani: "Апетисани",
+  vina: "Вина",
+  rakii: "Ракии",
   furnarinki: "Фурнаринки",
   meze: "Мезе",
   sirenje: "Сирење",
@@ -20,84 +20,55 @@ const mk = {
   pastrmajlija: "Пастрмајлија",
   deserti: "Десерти",
 
-  // Specijaliteti
-  svinskoFurna: "СВИНСКО ВО ФУРНА (1кг)",
-  teleskoFurna: "ТЕЛЕШКО ВО ФУРНА (1кг)",
-  sharskaPleskavica300: "ШАРСКА ПЛЕСКАВИЦА (300гр)",
-  sharskaPleskavica400: "ШАРСКА ПЛЕСКАВИЦА (400гр)",
-  porcijaStek: "ПОРЦИЈА СТЕК",
-  porcijaStekDesc: "(250гр стек, компири, домат, краставица, подлога, лепче)",
-  pileskaSnicla: "ПИЛЕШКА ШНИЦЛА",
-  pileskaSniclaDesc:
-    "(250гр похован стек, компири, домат, краставица, подлога, лепче)",
-  sosovi: "СОСОВИ",
-  belSos: "Бел сос со печурки",
-  kafeavSos: "Кафеав сос",
-  topolKariSos: "Топол кари сос",
-  barbikjuSos: "Барбикју сос",
-  polnetoPilesko: "ПОЛНЕТО ПИЛЕШКО",
-  polnetoPileskoDesc:
-    "(Пилешки стек, кашкавал, сувомеснато, свежи печурки, компир, кајмак, вариво, подлога лепче)",
-  govedskiMuskul: "ГОВЕДСКИ МУСКУЛ",
-  govedskiMuskulDesc:
-    "300гр. говедски мускул, сос од печурки (прилог вариво, компир, ориз, лепче)",
-  rizotoStek: "РИЖОТО СО СТЕК",
-  rizotoStekDesc: "(100гр ориз, 250гр стек, зеленчук, сос од печурки)",
-  vegetarijanskoRizoto: "ВЕГЕТАРИЈАНСКО РИЖОТО",
-  vegetarijanskoRizotoDesc:
-    "(100гр ориз, модар домат, тиквица, зеленчук, сос од печурки)",
-  teleskoBelo: "ТЕЛЕШКО БЕЛО МЕСО НА СКАРА",
+  // Topli Napitoci
+  kafe: "Кафе",
+  espreso: "Еспресо",
+  makijatoMalo: "Макијато мало",
+  makijatoGolemo: "Макијато големо",
+  kapucino: "Капучино",
+  neskafe: "Нескафе",
+  caj: "Чај",
 
-  // Novo
-  corba: "Чорба",
-  rizotoTelesko: "Рижото со телешко печење",
-  svinskoPecenje: `Свинско печење во сос од печурки`,
-  domasniKolbasi: "Домашни колбаси (1кг)",
-  sudzuk: "Суџук (1кг)",
+  // Bezalkoholni Pijaloci
+  kokaKola: "Кока Кола 0.25",
+  fanta: "Фанта 0,25",
+  sveps: "Швепс 0,25",
+  tonik: "Тоник 0,25",
+  pepsi: "Пепси 0,25",
+  strumka: "Струмка 0,25",
+  ovosenSokPrigam: "Овошен сок Пригам 0,25",
+  ovosenSok: "Овошен сок",
+  dzus: "Џус",
+  pelisterka1l: "Пелистерка 1Л",
+  pelisterka025: "Пелистерка 0,25",
+  pelisterkaNegazirana025: "Пелистерка негазирана 0,25",
 
-  // Pojadok
-  seSluziDo: "Се служи до 13:00ч",
-  omlet1: "ОМЛЕТ 1",
-  omlet1Desc:
-    "3 јајца, шунка, свежи печурки, кашкавал (прилог домати, павлака, лепче)",
-  omlet2: "ОМЛЕТ 2",
-  omlet2Desc:
-    "3 јајца, сувомеснато по избор, свежи печурки, кашкавал (прилог домати, сирење, павлака, лепче)",
-  omletVegetarijanski: "ОМЛЕТ ВЕГЕТАРИЈАНСКИ",
-  omletVegetarijanskiDesc:
-    "јајца, кромид, пиперки, печурки (прилог: домати, сирење, лепче, павлака)",
-  omletKombiniran: "ОМЛЕТ КОМБИНИРАН",
-  omletKombiniranDesc: "Омлет со 3 јајца и состојки по избор",
-  bekendegs: "ВЕКЕНДЕГС",
-  bekendegsDesc: "(3 јајца на око, сланина, сирење, павлака, домат, лепче)",
-  mekica: "МЕКИЦА",
-  mekicaDesc: "Додаток: сирење, павлака",
+  // Apetisani
+  lesnici: "Лешници",
+  bademi: "Бадеми",
+  fstaci: "Ф'стаци",
+  kikiriki: "Кикирики",
 
-  // Dodatoci
-  bakardiSos: "Бакарди Сос",
-  ladenKariSos: "Ладен Кари Сос (100гр)",
-  kecapMajonez100: "Кечап/Мајонез(100гр)",
-  kecapMajonez: "Кечап/Мајонез во кесичка",
-  meksikanaSos: "Мексикана сос (100гр)",
-  jajce: "Јајце",
-  varivoBrokula: "Вариво/Брокула",
-  pavlaka: "Павлака(100гр)",
-  maslinki: "Маслинки",
-  kajmak: "Кајмак (кугла)",
-  pomfrit: "Помфрит (100гр)",
-  sirenjeDodatok: "Сирење (50гр)",
-  piperka: "Пиперка (лута/блага)",
-  jogurt: "Јогурт (0.25)",
+  // Vina
+  smederevka: "Смедеревка 1Л",
+  aleksandriaBelo020: "Александриа бело 0,20",
+  aleksandriaBelo075: "Александриа бело 0,75",
+  aleksandriaCrveno020: "Александриа црвено 0,20",
+  aleksandriaCrveno075: "Александриа црвено 0,75",
+  aleksandriaBeloKuve: "Александриа бело куве",
+  aleksandriaCrvenoKuve: "Александриа црвено куве",
+  tgaZaJug: "Т'га за југ 0,20/0,75",
+  traminec: "Траминец 0,20/0,75",
+  temjanika: "Темјаника 0,20/0,75",
 
-  // Panceroti
-  pancerotaKlasik: "ПАНЦЕРОТА КЛАСИК",
-  pancerotaKlasikDesc: "сувомеснато, кашкавал, свежи печурки (прилог: павлака)",
-  kombiniranaPancerota: "КОМБИНИРАНА ПАНЦЕРОТА",
-  kombiniranaPancerotaDesc:
-    "две врсти сувомеснато, кашкавал, свежи печурки (прилог: павлака)",
-  pancerotaStek: "ПАНЦЕРОТА СО СТЕК",
-  pancerotaStekDesc: "стек, кашкавал, свежи печурки (прилог: павлака)",
-  pancerotaBolonjeze: "ПАНЦЕРОТА БОЛОЊЕЗЕ",
+  //Rakii
+  lozaZoltaTikves: "Лоза жолта Тиквеш 0,05",
+  lozaBelaTikves: "Лоза бела Тиквеш 0,05",
+  bovinZolta: "Бовин жолта 0,05",
+  zoltaLozaBovin: "Жолта лоза Бовин 0,05",
+  mastika: "Мастика 0,05",
+  pelinkovac: "Пелинковац 0,05",
+  martini: "Мартини",
 
   // Furnarinki
   lukarinka: "ЛУКАРИНКА",
