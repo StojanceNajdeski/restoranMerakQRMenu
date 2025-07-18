@@ -37,7 +37,7 @@ const MenuComponent = () => {
           onClick={() => i18n.changeLanguage("al")}
         />
       </div>
-      <div className="flex text-2xl justify-center items-center pt-2">
+      <div className="flex text-yellow-300 text-2xl justify-center  items-center pt-2">
         <FontAwesomeIcon icon={faStar} />
         <FontAwesomeIcon icon={faStar} />
         <FontAwesomeIcon icon={faStar} />
@@ -49,81 +49,81 @@ const MenuComponent = () => {
       </h1>
       <div className="w-[90%] mx-auto">
         <div className="flex gap-3">
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white text-2xl p-2 w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white text-2xl p-2 w-60 mb-5 rounded-2xl">
             <Link href="/topliPijaloci">{t("topliPijaloci")}</Link>
           </button>
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white text-2xl p-2 w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white text-2xl p-2 w-60 mb-5 rounded-2xl">
             <Link href="/bezalkoholniPijaloci">
               {t("bezalkoholniPijaloci")}
             </Link>
           </button>
         </div>
         <div className="flex gap-3">
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="zestokiPijaloci">{t("zestokiPijaloci")}</Link>
           </button>
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/ladniPredjadenja">{t("ladniPredjadenja")}</Link>
           </button>
         </div>
         <div className="flex gap-3">
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/topliPredjadenja">{t("topliPredjadenja")}</Link>
           </button>
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/pileskaSkara">{t("pileskaSkara")}</Link>
           </button>
         </div>
         <div className="flex gap-3">
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/teleskaSkara">{t("teleskaSkara")}</Link>
           </button>
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/svinskaSkara">{t("svinskaSkara")}</Link>
           </button>
         </div>
         <div className="flex gap-3">
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-2 text-2xl w-full mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-2 text-2xl w-full mb-5 rounded-2xl">
             <Link href="/mesanaSkara">{t("mesanaSkara")}</Link>
           </button>
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-1 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-1 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/ribniSpecijaliteti">{t("ribniSpecijaliteti")}</Link>
           </button>
         </div>
         <div className="flex gap-3">
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/burgeri">{t("burgeri")}</Link>
           </button>
-          <button className="bg-amber-600 basis-2/4  notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4  notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/apetisani">{t("apetisani")}</Link>
           </button>
         </div>
         <div className="flex gap-3">
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="piva">{t("piva")}</Link>
           </button>
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/rakii">{t("rakii")}</Link>
           </button>
         </div>
         <div className="flex gap-3">
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-2 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="salati">{t("salati")}</Link>
           </button>
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/deserti">{t("deserti")}</Link>
           </button>
         </div>
         <div className="flex gap-3">
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/pecenje">{t("pecenje")}</Link>
           </button>
-          <button className="bg-amber-600 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 basis-2/4 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/pici">{t("pici")}</Link>
           </button>
         </div>
         <div className="flex gap-3 ">
-          <button className="bg-amber-600 w-100 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
+          <button className="bg-red-800 w-100 notoSansFont text-white p-3 text-2xl w-60 mb-5 rounded-2xl">
             <Link href="/vina">{t("vina")}</Link>
           </button>
         </div>

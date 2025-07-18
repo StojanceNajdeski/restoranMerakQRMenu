@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 @import "tailwindcss";
 body {
-  background-color: dimgrey;
+  background-color: black;
   color: white;
   font-family: "Noto Sans", sans-serif;
   position: relative;
