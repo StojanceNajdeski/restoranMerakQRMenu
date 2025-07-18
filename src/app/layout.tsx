@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bakardi Menu",
+  title: "Merak Menu",
 };
 
 export default function RootLayout({
