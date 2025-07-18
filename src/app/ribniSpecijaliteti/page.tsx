@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 
-const Deserti = () => {
+const RibniSpecijaliteti = () => {
   const { t } = useTranslation();
   return (
     <div className="text-base sm:text-lg md:text-xl lg:text-2xl">
@@ -14,48 +14,42 @@ const Deserti = () => {
       </Link>
       <div className="justify-center items-center flex flex-col">
         <h1 className="text-center text-3xl">{t("restoranMerak")}</h1>
-        <h2 className="text-center pt-3 text-xl text-orange-600 uppercase font-bold">
-          {t("deserti")}
+        <h2 className="text-center pt-3 text-xl whitespace-pre-line text-orange-600 uppercase font-bold">
+          {t("ribniSpecijaliteti")}
         </h2>
       </div>
       <div className=" w-[90%] mx-auto pt-6 text-white">
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("baklava")}</b>
-            <b className="basis-1/12 text-right">70</b>
+            <b className="basis-11/12">{t("krap")}</b>
+            <b className="basis-1/12 text-right">700</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("palacinka")}</b>
-            <b className="basis-1/12 text-right">120</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-          <div className="flex w-100">
-            <small className="basis-3/4">{t("palacinkaDesc")}</small>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-11/12">{t("palacinka")}</b>
-            <b className="basis-1/12 text-right">150</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-          <div className="flex w-100">
-            <small className="basis-3/4">{t("palacinkaMedDesc")}</small>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-11/12">{t("trilece")}</b>
-            <b className="basis-1/12 text-right">100</b>
+            <b className="basis-11/12">{t("krapKremenadli")}</b>
+            <b className="basis-1/12 text-right">1200</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("sladoledKugla")}</b>
+            <b className="basis-4/5">{t("kaliforniskaPastrmka")}</b>
+            <b className="basis-1/5 text-right">1000</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-11/12">{t("recnaPastrmka")}</b>
+            <b className="basis-1/12 text-right">1000</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-11/12">{t("girici")}</b>
             <b className="basis-1/12 text-right">100</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
@@ -65,4 +59,4 @@ const Deserti = () => {
   );
 };
 
-export default Deserti;
+export default RibniSpecijaliteti;
