@@ -86,11 +86,11 @@ const MenuComponent = () => {
           </button>
         </div>
 
-        <div className="flex flex-wrap gap-3 w-full">
-          <button className="bg-red-800 h-20 flex-1 notoSansFont text-white text-2xl p-2 mb-5 rounded-2xl">
+        <div className="flex flex-wrap gap-3 w-full justify-center">
+          <button className="bg-red-800 h-20 flex-1 notoSansFont text-white text-2xl p-2 mb-5 rounded-2xl text-center break-words">
             <Link href="/ribniSpecijaliteti">{t("ribniSpecijaliteti")}</Link>
           </button>
-          <button className="bg-red-800 h-20 flex-1 notoSansFont text-white text-2xl p-2 mb-5 rounded-2xl">
+          <button className="bg-red-800 h-20 flex-1 notoSansFont text-white text-2xl p-2 mb-5 rounded-2xl text-center break-words">
             <Link href="/makedonskoTradicionalno">
               {t("makedonskoTradicionalno")}
             </Link>
