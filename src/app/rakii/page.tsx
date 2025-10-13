@@ -36,20 +36,27 @@ const Rakii = () => {
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("bovinZolta")}</b>
-            <b className="basis-1/12 text-right">120</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-11/12">{t("zoltaLozaBovin")}</b>
-            <b className="basis-1/12 text-right">120</b>
+            <b className="basis-1/12 text-right">130</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("mastika")}</b>
+            <b className="basis-1/12 text-right">90</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-11/12">{t("uzo")}</b>
+            <b className="basis-1/12 text-right">90</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-11/12">{t("konjak")}</b>
             <b className="basis-1/12 text-right">80</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
@@ -63,8 +70,22 @@ const Rakii = () => {
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("martini")}</b>
-            <b className="basis-1/12 text-right">60</b>
+            <b className="basis-11/12">{t("vigor")}</b>
+            <b className="basis-1/12 text-right">80</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-11/12">{t("smirnof")}</b>
+            <b className="basis-1/12 text-right">100</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-11/12">{t("stok")}</b>
+            <b className="basis-1/12 text-right">120</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>

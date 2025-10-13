@@ -21,68 +21,88 @@ const SvinskaSkara = () => {
       <div className=" w-[90%] mx-auto pt-6">
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("svinskaVesalica")}</b>
-            <b className="basis-1/12 text-right">150</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-4/5">{t("svinskaPolnetaVesalica")}</b>
-            <b className="basis-1/5 text-right">230</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-4/5">{t("svinskaKremenadla")}</b>
-            <b className="basis-1/5 text-right">900</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-4/5">{t("svinskiUvijac")}</b>
-            <b className="basis-1/5 text-right">200</b>
+            <b className="basis-11/12">{t("svinskoVoSos")}</b>
+            <b className="basis-1/12 text-right">290</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-4/5">{t("svinskoRebro")}</b>
-            <b className="basis-1/5 text-right">800</b>
+            <b className="basis-1/5 text-right">1000</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-4/5">{t("svezSvinskiVrat")}</b>
-            <b className="basis-1/5 text-right">900</b>
+            <b className="basis-4/5">{t("domasenKolbas")}</b>
+            <b className="basis-1/5 text-right">230</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-4/5">{t("svinskiDomasenKolbas")}</b>
-            <b className="basis-1/5 text-right">200</b>
+            <b className="basis-4/5">{t("svinskaVesalica")}</b>
+            <b className="basis-1/5 text-right">230</b>
             <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-4/5">{t("svinskoPecenje")}</b>
+            <b className="basis-1/5 text-right">1200</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-4/5">{t("svinskoRebroVoFurna")}</b>
+            <b className="basis-1/5 text-right">1200</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-4/5">{t("svinskiUvijac")}</b>
+            <b className="basis-1/5 text-right">300</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+          <div className="flex">
+            <small className="basis-3/5">{t("svinskiUvijacDesc")}</small>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-4/5">{t("svinskaPolnetaVesalica")}</b>
+            <b className="basis-1/5 text-right">330</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+          <div className="flex">
+            <small className="basis-3/5">
+              {t("svinskaPolnetaVesalicaDesc")}
+            </small>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-4/5">{t("selskoSvinsko")}</b>
-            <b className="basis-1/5 text-right">300</b>
+            <b className="basis-1/5 text-right">400</b>
             <b className="ml-1">{t("mkd")}</b>
+          </div>
+          <div className="flex">
+            <small className="basis-3/5">{t("selskoSvinskoDesc")}</small>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-4/5">{t("svinskaKolenica")}</b>
-            <b className="basis-1/5 text-right">700</b>
+            <b className="basis-4/5">{t("svinskiRaznicAlaMerak")}</b>
+            <b className="basis-1/5 text-right">230</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
           <div className="flex">
-            <small className="basis-3/5">{t("svinskaKolenicaDesc")}</small>
+            <small className="basis-3/5">
+              {t("svinskiRaznicAlaMerakDesc")}
+            </small>
           </div>
         </div>
       </div>

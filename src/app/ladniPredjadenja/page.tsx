@@ -21,43 +21,36 @@ const LadniPredjadenja = () => {
       <div className=" w-[90%] mx-auto pt-6">
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("ordever")}</b>
-            <b className="basis-1/12 text-right">150</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
             <b className="basis-11/12">{t("ovcoSirenje")}</b>
-            <b className="basis-1/12 text-right">170</b>
+            <b className="basis-1/12 text-right">220</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("kravjoSirenje")}</b>
-            <b className="basis-1/12 text-right">170</b>
+            <b className="basis-1/12 text-right">180</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("bienoSirenje")}</b>
-            <b className="basis-1/12 text-right">170</b>
+            <b className="basis-1/12 text-right">180</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("kajmak")}</b>
-            <b className="basis-1/12 text-right">80</b>
+            <b className="basis-11/12">{t("kravjoSkara")}</b>
+            <b className="basis-1/12 text-right">200</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("makalo")}</b>
-            <b className="basis-1/12 text-right">100</b>
+            <b className="basis-11/12">{t("bienoSkara")}</b>
+            <b className="basis-1/12 text-right">200</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>

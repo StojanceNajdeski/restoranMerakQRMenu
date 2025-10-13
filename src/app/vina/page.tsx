@@ -22,7 +22,14 @@ const Vina = () => {
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("smederevka")}</b>
-            <b className="basis-1/12 text-right">380</b>
+            <b className="basis-1/12 text-right">350</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-11/12">{t("vitac")}</b>
+            <b className="basis-1/12 text-right">350</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
@@ -57,14 +64,14 @@ const Vina = () => {
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("aleksandriaBeloKuve")}</b>
-            <b className="basis-1/12 text-right">1350</b>
+            <b className="basis-1/12 text-right">1500</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("aleksandriaCrvenoKuve")}</b>
-            <b className="basis-1/12 text-right">1350</b>
+            <b className="basis-1/12 text-right">1500</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>

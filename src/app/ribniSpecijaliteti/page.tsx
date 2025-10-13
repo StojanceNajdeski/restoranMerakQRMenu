@@ -22,13 +22,6 @@ const RibniSpecijaliteti = () => {
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("krap")}</b>
-            <b className="basis-1/12 text-right">700</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-11/12">{t("krapKremenadli")}</b>
             <b className="basis-1/12 text-right">1200</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
@@ -36,21 +29,28 @@ const RibniSpecijaliteti = () => {
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-4/5">{t("kaliforniskaPastrmka")}</b>
-            <b className="basis-1/5 text-right">1000</b>
+            <b className="basis-1/5 text-right">1100</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-4/5">{t("lososRiba")}</b>
+            <b className="basis-1/5 text-right">1200</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("recnaPastrmka")}</b>
-            <b className="basis-1/12 text-right">1000</b>
+            <b className="basis-1/12 text-right">1400</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("girici")}</b>
-            <b className="basis-1/12 text-right">100</b>
+            <b className="basis-11/12">{t("maticaPastrmka")}</b>
+            <b className="basis-1/12 text-right">1200</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>

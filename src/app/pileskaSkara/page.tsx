@@ -21,68 +21,72 @@ const PileskaSkara = () => {
       <div className=" w-[90%] mx-auto pt-6">
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("pileskiKrilca")}</b>
-            <b className="basis-1/12 text-right">750</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-11/12">{t("pileskiPrsti")}</b>
-            <b className="basis-1/12 text-right">220</b>
+            <b className="basis-11/12">{t("pileskiBatak")}</b>
+            <b className="basis-1/12 text-right">230</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("pileskiStek")}</b>
-            <b className="basis-1/12 text-right">180</b>
+            <b className="basis-1/12 text-right">230</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("pileskiUvijac")}</b>
-            <b className="basis-1/12 text-right">200</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-4/5">{t("polnetaPileskaVesalica")}</b>
-            <b className="basis-1/5 text-right">230</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-11/12">{t("selskoPilesko")}</b>
             <b className="basis-1/12 text-right">300</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
+          <div className="flex">
+            <small className="basis-11/12">{t("pileskiUvijacDesc")}</small>
+          </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("merakPleskavica")}</b>
-            <b className="basis-1/12 text-right">150/230</b>
+            <b className="basis-11/12">{t("pileskaPolnetaVesalica")}</b>
+            <b className="basis-1/12 text-right">330</b>
             <b className="ml-1">{t("mkd")}</b>
+          </div>
+          <div className="flex">
+            <small className="basis-11/12">
+              {t("pileskaPolnetaVesalicaDesc")}
+            </small>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-4/5">{t("pileskiKrilca")}</b>
+            <b className="basis-1/5 text-right">800</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-11/12">{t("pileskoSelsko")}</b>
+            <b className="basis-1/12 text-right">400</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+          <div className="flex">
+            <small className="basis-11/12">{t("pileskoSelskoDesc")}</small>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("stekAlaMerak")}</b>
-            <b className="basis-1/12 text-right">200</b>
+            <b className="basis-1/12 text-right">280</b>
             <b className="ml-1">{t("mkd")}</b>
+          </div>
+          <div className="flex">
+            <small className="basis-11/12">{t("stekAlaMerakDesc")}</small>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("beckaSnicla")}</b>
-            <b className="basis-1/12 text-right">200</b>
+            <b className="basis-11/12">{t("pileskiStekVoSos")}</b>
+            <b className="basis-1/12 text-right">290</b>
             <b className="ml-1">{t("mkd")}</b>
-          </div>
-          <div className="flex">
-            <small className="basis-11/12">{t("beckaSniclaDesc")}</small>
           </div>
         </div>
       </div>

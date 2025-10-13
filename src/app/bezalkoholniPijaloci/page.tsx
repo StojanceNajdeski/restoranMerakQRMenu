@@ -51,7 +51,14 @@ const BezalkoholniPijaloci = () => {
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("pepsi")}</b>
+            <b className="basis-11/12">{t("cedevita")}</b>
+            <b className="basis-1/12 text-right">60</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-11/12">{t("sprajt")}</b>
             <b className="basis-1/12 text-right">80</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
@@ -66,28 +73,14 @@ const BezalkoholniPijaloci = () => {
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("ovosenSokPrigam")}</b>
-            <b className="basis-1/12 text-right">80</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-11/12">{t("ovosenSok")}</b>
-            <b className="basis-1/12 text-right">80</b>
-            <b className="ml-1">{t("mkd")}</b>
-          </div>
-        </div>
-        <div className="pb-5 text-xl">
-          <div className="flex">
-            <b className="basis-11/12">{t("dzus")}</b>
-            <b className="basis-1/12 text-right">80</b>
+            <b className="basis-1/12 text-right">90</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
             <b className="basis-11/12">{t("pelisterka1l")}</b>
-            <b className="basis-1/12 text-right">100</b>
+            <b className="basis-1/12 text-right">120</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
@@ -100,8 +93,15 @@ const BezalkoholniPijaloci = () => {
         </div>
         <div className="pb-5 text-xl">
           <div className="flex">
-            <b className="basis-11/12">{t("pelisterkaNegazirana025")}</b>
-            <b className="basis-1/12 text-right">100</b>
+            <b className="basis-11/12">{t("rosa025")}</b>
+            <b className="basis-1/12 text-right">80</b>
+            <b className="ml-1">{t("mkd")}</b>
+          </div>
+        </div>
+        <div className="pb-5 text-xl">
+          <div className="flex">
+            <b className="basis-11/12">{t("rosa1l")}</b>
+            <b className="basis-1/12 text-right">120</b>
             <b className="ml-1">{t("mkd")}</b>
           </div>
         </div>
